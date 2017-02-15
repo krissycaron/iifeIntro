@@ -10,6 +10,8 @@ var SolarSystem = (function() {
 	var age = 0;
 
 	return {
+		setDate: Date.now(); // method not a function
+
 		getPlanets : function(){ //getter 
 			return	planets; // allowing us to access the gett
 		},
